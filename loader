@@ -1,0 +1,12 @@
+local scripts = {
+    [123456789] = "https://raw.githubusercontent.com/tuuser/repo/main/juego1.lua",
+    [987654321] = "https://raw.githubusercontent.com/tuuser/repo/main/juego2.lua"
+}
+
+local scriptUrl = scripts[game.PlaceId]
+
+if scriptUrl then
+    loadstring(game:HttpGet(scriptUrl))()
+else
+    print("Juego no soportado")
+end
