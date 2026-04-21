@@ -1,6 +1,6 @@
 local scripts = {
-    [95630541662383] = "https://raw.githubusercontent.com/Pucho1RD/World-Fighters/refs/heads/main/WF?token=GHSAT0AAAAAAD3AIJTKKBUCDENE4TT7G2RS2PG3QZQ",
-    [987654321] = "https://raw.githubusercontent.com/tuuser/repo/main/juego2.lua"
+    [95630541662383] = "https://raw.githubusercontent.com/Pucho1RD/World-Fighters/refs/heads/main/WF",
+    [125003919504672] = "https://raw.githubusercontent.com/Pucho1RD/My-Knife-Farm/refs/heads/main/NEW"
 }
 
 local scriptUrl = scripts[game.PlaceId]
